@@ -1,0 +1,20 @@
+{
+  "name" : "Student",
+  "tableName" : "students",
+  "packageName" : "com.andromeda.ems",
+  "module" : "students",
+  "author" : "Prakash K",
+  "columns" : [ {
+    "name" : "rollno",
+    "type" : "java.lang.Integer",
+    "idColumn" : true
+  }, {
+    "name" : "name",
+    "type" : "java.lang.String",
+    "idColumn" : false
+  }, {
+    "name" : "marks",
+    "type" : "java.lang.Integer",
+    "idColumn" : false
+  } ]
+}

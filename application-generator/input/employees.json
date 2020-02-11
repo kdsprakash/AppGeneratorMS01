@@ -1,0 +1,24 @@
+{
+  "name" : "Employee",
+  "tableName" : "employees",
+  "packageName" : "com.andromeda.ems",
+  "module" : "employees",
+  "author" : "Prakash K",
+  "columns" : [ {
+    "name" : "id",
+    "type" : "java.lang.Integer",
+    "idColumn" : true
+  }, {
+    "name" : "name",
+    "type" : "java.lang.String",
+    "idColumn" : false
+  }, {
+    "name" : "email",
+    "type" : "java.lang.String",
+    "idColumn" : false
+  }, {
+    "name" : "phone",
+    "type" : "java.lang.String",
+    "idColumn" : false
+  } ]
+}
